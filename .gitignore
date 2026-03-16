@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.agent-template/
+
+# Agent config (local per-user, managed by skills-sync)
+.claude/
+.openclaw/
+
+# OS
+.DS_Store
+._.DS_Store
+
+# Logs
+audit.jsonl
+audit.jsonl.lock
+*.log
+
+# Python
+__pycache__/
+*.pyc
